@@ -21,3 +21,5 @@ Code Repository for {Insert Citation for Paper} {add link to paper}
 ## DTW_Consensus_Clustering.ipynb (DTW_Consensus_Clustering.R)
 *Note: Code is written in R, but also designed to be excuted in a python environment using r2py package. If using python, will need to load in the accompanying .tar file for the appropriate installations of R libraries (example provided in the notebook)* <br>
 
+#### Input distance matrix, returns a ConsensusClusterPlus object
+A variety of results can be extracted and saved from this object (see documentation [here](https://www.bioconductor.org/packages/release/bioc/vignettes/ConsensusClusterPlus/inst/doc/ConsensusClusterPlus.pdf)), for this study the consensus classes were recorded as well as four standard plots output by the algorithm.
