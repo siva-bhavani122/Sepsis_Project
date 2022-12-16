@@ -22,4 +22,7 @@ Code Repository for {Insert Citation for Paper} {add link to paper}
 *Note: Code is written in R, but also designed to be excuted in a python environment using r2py package. If using python, will need to load in the accompanying .tar file for the appropriate installations of R libraries (example provided in the notebook)* <br>
 
 #### Input distance matrix, returns a ConsensusClusterPlus object
-A variety of results can be extracted and saved from this object (see documentation [here](https://www.bioconductor.org/packages/release/bioc/vignettes/ConsensusClusterPlus/inst/doc/ConsensusClusterPlus.pdf)), for this study the consensus classes were recorded as well as four standard plots output by the algorithm.
+A variety of results can be extracted and saved from this object (see documentation [here](https://www.bioconductor.org/packages/release/bioc/vignettes/ConsensusClusterPlus/inst/doc/ConsensusClusterPlus.pdf)), for this study the consensus classes were recorded as well as four standard plots (Consensus Matrix, Consensus CDF, Delta Area, Cluster Consensus) output by the algorithm.
+
+![image](https://user-images.githubusercontent.com/116388073/208177529-97966697-a71e-49f2-a408-2e06dd2752b0.png)
+*Note: Plots are all represenatative, none contain true data used in study.*
